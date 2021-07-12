@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+body {
+  overflow-x: hidden;
+}
+.navbar-brand img {
+  height: 160px;
+  width: 160px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.emp-profile .col-md-4 img {
+  height: 100px;
+  width: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ////register-page///// */
+.signup {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signup-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.signup-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+}
+.signup-form h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.signup-form form .form-group input {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.signup-form form .form-group input.form-submit {
+  margin-left: 1.6rem;
 }
 
-.App-link {
-  color: #61dafb;
+.signup-form form .form-group label i {
+  padding-right: 1rem;
 }
+.signup-image img {
+  height: 300px;
+  width: 450px;
+}
+.signup-image {
+  padding-top: 3.6rem;
+}
+.signup-image .signup-image-link {
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+/* ///////login-form//// */
+.sign-in {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.signin-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.signin-form h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+.signin-form form .form-group input {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.signin-form form .form-group input.form-submit {
+  margin-left: 1.6rem;
+}
+.signin-form form .form-group label i {
+  padding-right: 1rem;
+}
+.signin-image img {
+  height: 300px;
+  width: 450px;
+}
+.signin-image {
+  padding-top: 3.6rem;
+}
+.signin-image .signin-image-link {
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+/* ////contactform/// */
+.contact_info {
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 100%;
+  margin-top: 5rem;
+}
+.contact_info_item > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.contact_info_item > div div {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 500;
+}
+.contact_info_item img {
+  height: 60px;
+  width: 60px;
+}
+.contact-form {
+  margin-bottom: 5rem;
+}
+.contact-form .contact_form_title h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  /* margin-left: 1rem; */
+  width: 100%;
+  text-align: center;
+}
+.contact-form .contact_form_name input {
+  font-weight: 500;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+.contact_form_text {
+  display: flex;
+  flex-direction: column;
+}
+.contact_form_button button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #ccc;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
 }
